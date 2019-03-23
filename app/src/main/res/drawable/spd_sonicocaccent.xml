@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+  	<!-- First layer, the unthemed part -->
+    <item android:drawable="@drawable/spf_sonicoc9_l1" />
+
+    <!-- Second layer, the tintable part, set to tint with system accent -->
+    <item>
+    	<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:src="@drawable/spf_sonicoc9_l2"
+    		android:tint="@color/system_accent_color" />
+    </item>
+
+    <!-- Third layer, the color variations and stuff over the image tint -->
+    <item android:drawable="@drawable/spf_sonicoc9_l3" />
+
+</layer-list>
