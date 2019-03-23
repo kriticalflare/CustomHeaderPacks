@@ -44,6 +44,20 @@
             </intent-filter>
 
         </activity>
+        <activity android:label="Onepiece" android:name="com.solidfrost.android.customheaderpacks.headers.onepiece">
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+        <activity android:label="Custom" android:name="com.solidfrost.android.customheaderpacks.headers.custom">
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>

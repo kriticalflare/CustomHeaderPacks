@@ -21,11 +21,8 @@ day_header entries have a higher priority then hour entries -->
 
 <daylight_headers>
 <!-- List a random header with the name on it -->
-    <random_header image="conan1" />
-    <random_header image="conan2" />
-    <random_header image="conan3" />
-    <random_header image="conan4" />
-    <random_header image="conan5" />
-    <random_header image="conan6" />
+    <random_header image="onepiece1" />
+    <random_header image="onepiece2" />
+    <random_header image="onepiece3" />
 
 </daylight_headers>
